@@ -80,6 +80,16 @@ $(function(){
 								</ul>
 							</li>
 							<li><a href="login.php">SOCIAL</a></li>
+								<li class="current"><a href="login.php">SOCIAL<span class="arrow"></span></a>
+									<ul style="display: none;" class="sub_menu">
+										<li class="arrow_top"></li>
+										<li><a class="subCurrent" href="https://web.iit.edu/campus-life/events">Events</a></li>
+										<li><a href="http://www.illinoistechathletics.com/landing/index">Atheletics</a></li>
+										<li><a href="https://hawklink.iit.edu/Organizations">Social Groups and Student Organizations@IIT</a></li>
+										<li><a href="https://iit.edu/news/iittoday/?cat=3">Course News</a></li>
+										<li><a href="https://web.iit.edu/registrar/academic-calendar">University Calender</a></li>
+									</ul>
+								</li>
 							<li><a href="login.php">FOOD & DINING</a></li>
 
 							<li><a href="login.php">Miscellaneous</a></li>
