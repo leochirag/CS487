@@ -91,8 +91,23 @@ $(function(){
 									</ul>
 								</li>
 							<li><a href="login.php">FOOD & DINING</a></li>
-
+								<li class="current"><a href="login.php">Food $ Dining<span class="arrow"></span></a>
+									<ul style="display: none;" class="sub_menu">
+										<li class="arrow_top"></li>
+										<li><a class="subCurrent" href="https://iit.sodexomyway.com">On Campus Dining Services</a></li>
+										<li><a href="https://web.iit.edu/housing/nearby-restaurants">Nearby Restaurants</a></li>
+									</ul>
+								</li>
 							<li><a href="login.php">Miscellaneous</a></li>
+							<li class="current"><a href="login.php">Miscellaneous<span class="arrow"></span></a>
+								<ul style="display: none;" class="sub_menu">
+									<li class="arrow_top"></li>
+									<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
+									<li><a href="https://web.iit.edu/contact-us">Important contact Info</a></li>
+									<li><a href="https://hawklink.iit.edu/Organizations">Weather Updates</a></li>
+									<li><a href="https://web.iit.edu/sites/web/files/departments/acaps/pdfs/Illinois-Tech-Shuttle-Bus-Schedule.pdf">Shuttle Bus</a></li>
+								</ul>
+							</li>
 							 <li><a href="logout.php">Logout</a></li>
 						</ul>
 					</nav>
