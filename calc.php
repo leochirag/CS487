@@ -13,7 +13,7 @@
 
 include("auth.php"); ?>
 <!--  javaScript -->
-<script>  
+<script>
 <!--  // building select nav for mobile width only -->
 $(function(){
 	// building select menu
@@ -48,10 +48,10 @@ $(function(){
 		function () {
 			//show its submenu
 			$('ul', this).slideDown(150);
-		}, 
+		},
 		function () {
 			//hide its submenu
-			$('ul', this).slideUp(150);			
+			$('ul', this).slideUp(150);
 		}
 	);
 });
@@ -62,7 +62,7 @@ $(function(){
 <body>
 
 <div class="container">
-			
+
 	<header>
 		<div id="fdw">
 				<!--nav-->
@@ -71,17 +71,39 @@ $(function(){
 							<li class="current"><a href="login.php">ACADEMICS<span class="arrow"></span></a>
 								<ul style="display: none;" class="sub_menu">
 									<li class="arrow_top"></li>
-									<li><a href="coursegpa.php">Current GPA</a></li>
-									<li><a class="subCurrent"  href="calc.php">GPA Calculator</a></li>
+									<li><a class="subCurrent" href="coursegpa.php">Current GPA</a></li>
+									<li><a href="calc.php">GPA Calculator</a></li>
 									<li><a href="login.php">Class Schedule</a></li>
-									<li><a href="login.php">Courses List</a></li>
-									<li><a href="login.php">University Calender</a></li>
+									<li><a href="courselist.php">Courses List</a></li>
+									<li><a href="https://web.iit.edu/registrar/academic-calendar">Academic Calender</a></li>
 								</ul>
 							</li>
-							<li><a href="login.php">SOCIAL</a></li>
-							<li><a href="login.php">FOOD & DINING</a></li>
-								
-							<li><a href="login.php">Miscellaneous</a></li>
+								<li class="current"><a href="login.php">SOCIAL<span class="arrow"></span></a>
+									<ul style="display: none;" class="sub_menu">
+										<li class="arrow_top"></li>
+										<li><a class="subCurrent" href="https://web.iit.edu/campus-life/events">Events</a></li>
+										<li><a href="http://www.illinoistechathletics.com/landing/index">Atheletics</a></li>
+										<li><a href="https://hawklink.iit.edu/Organizations">Social Groups</a></li>
+										<li><a href="https://iit.edu/news/iittoday/?cat=3">University News</a></li>
+									</ul>
+								</li>
+								<li class="current"><a href="login.php">Food $ Dining<span class="arrow"></span></a>
+									<ul style="display: none;" class="sub_menu">
+										<li class="arrow_top"></li>
+										<li><a class="subCurrent" href="https://iit.sodexomyway.com">On Campus Dining</a></li>
+										<li><a href="https://web.iit.edu/housing/nearby-restaurants">Nearby Restaurants</a></li>
+									</ul>
+								</li>
+
+								<li class="current"><a href="login.php">Miscellaneous<span class="arrow"></span></a>
+									<ul style="display: none;" class="sub_menu">
+										<li class="arrow_top"></li>
+										<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
+										<li><a href="https://web.iit.edu/contact-us">Important contact Info</a></li>
+										<li><a href="https://hawklink.iit.edu/Organizations">Weather Updates</a></li>
+										<li><a href="https://web.iit.edu/sites/web/files/departments/acaps/pdfs/Illinois-Tech-Shuttle-Bus-Schedule.pdf">Shuttle Bus</a></li>
+									</ul>
+								</li>
 							 <li><a href="logout.php">Logout</a></li>
 						</ul>
 					</nav>
@@ -89,69 +111,69 @@ $(function(){
 	</header><!-- end header -->
     <CENTER>
 <FORM Name="GPACalcForm">
-<TABLE BORDER=5 BGCOLOR=#C0C0C0 CELLPADDING="5" 
+<TABLE BORDER=5 BGCOLOR=#C0C0C0 CELLPADDING="5"
 CELLSPACING="2">
 <TH></TH>
 <TH>Grade</TH>
 <TH>Credits</TH>
 <TR>
 <TD>Class 1</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR1" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR1" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR1" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR1" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 2</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR2" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR2" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR2" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR2" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 3</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR3" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR3" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR3" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR3" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 4</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR4" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR4" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR4" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR4" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 5</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR5" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR5" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR5" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR5" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 6</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR6" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR6" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR6" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR6" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 7</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR7" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR7" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR7" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR7" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR>
 <TD>Class 8</TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR8" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="GR8" ALIGN=TOP
 MAXLENGTH=5></TD>
-<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR8" ALIGN=TOP 
+<TD><INPUT TYPE=TEXT SIZE=5 NAME="CR8" ALIGN=TOP
 MAXLENGTH=5></TD>
 </TR>
 <TR ALIGN=CENTER>
-<TD COLSPAN=3><INPUT TYPE="BUTTON" VALUE="Calculate" 
+<TD COLSPAN=3><INPUT TYPE="BUTTON" VALUE="Calculate"
 NAME="CalcButton"
 OnClick="gpacalc()"></TD>
 </TR>
@@ -168,21 +190,21 @@ OnClick="gpacalc()"></TD>
 
 <SCRIPT LANGUAGE="JavaScript">
 
-<!-- 
+<!--
 function gpacalc()
 {
 //define valid grades and their values
-var gr = new Array(9); 
+var gr = new Array(9);
 var cr = new Array(9);
 var ingr = new Array(5);
 var incr = new Array(5);
 
 // define valid grades and their values
-var grcount = 11; 
+var grcount = 11;
 gr[0] = "A+";
 cr[0] = 5;
-gr[1] = "A"; 
-cr[1] = 4; 
+gr[1] = "A";
+cr[1] = 4;
 gr[2] = "A-";
 cr[2] = 3.66;
 gr[3] = "B+";
@@ -226,7 +248,7 @@ var gpa = 0;
 for (var x = 0; x < 5 + 3; x++)
         {
         if (ingr[x] == "") break;
-//      if (isNaN(parseInt(incr[x]))) alert("Error- You did not enter a numeric  credits value for Class If the class is worth 0 credits then enter the number 0 in  the field."); 
+//      if (isNaN(parseInt(incr[x]))) alert("Error- You did not enter a numeric  credits value for Class If the class is worth 0 credits then enter the number 0 in  the field.");
         var validgrcheck = 0;
         for (var xx = 0; xx < grcount; xx++)
                 {
@@ -260,7 +282,7 @@ return 0;
 }
 
 //-->
-    
+
 </SCRIPT>
 
 </div>
