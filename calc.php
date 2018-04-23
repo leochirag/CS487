@@ -68,7 +68,7 @@ $(function(){
 				<!--nav-->
 					<nav>
 						<ul>
-							<li class="current"><a href="login.php">ACADEMICS<span class="arrow"></span></a>
+							<li class="current"><a href="index.php">ACADEMICS<span class="arrow"></span></a>
 								<ul style="display: none;" class="sub_menu">
 									<li class="arrow_top"></li>
 									<li><a class="subCurrent" href="coursegpa.php">Current GPA</a></li>
@@ -78,7 +78,7 @@ $(function(){
 									<li><a href="https://web.iit.edu/registrar/academic-calendar">Academic Calender</a></li>
 								</ul>
 							</li>
-								<li class="current"><a href="login.php">SOCIAL<span class="arrow"></span></a>
+								<li class="current"><a href="index.php">SOCIAL<span class="arrow"></span></a>
 									<ul style="display: none;" class="sub_menu">
 										<li class="arrow_top"></li>
 										<li><a class="subCurrent" href="https://web.iit.edu/campus-life/events">Events</a></li>
@@ -87,7 +87,7 @@ $(function(){
 										<li><a href="https://iit.edu/news/iittoday/?cat=3">University News</a></li>
 									</ul>
 								</li>
-								<li class="current"><a href="login.php">Food $ Dining<span class="arrow"></span></a>
+								<li class="current"><a href="index.php">Food $ Dining<span class="arrow"></span></a>
 									<ul style="display: none;" class="sub_menu">
 										<li class="arrow_top"></li>
 										<li><a class="subCurrent" href="https://iit.sodexomyway.com">On Campus Dining</a></li>
@@ -95,7 +95,7 @@ $(function(){
 									</ul>
 								</li>
 
-								<li class="current"><a href="login.php">Miscellaneous<span class="arrow"></span></a>
+								<li class="current"><a href="index.php">Miscellaneous<span class="arrow"></span></a>
 									<ul style="display: none;" class="sub_menu">
 										<li class="arrow_top"></li>
 										<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
