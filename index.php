@@ -72,9 +72,9 @@ $(function(){
 							<li class="current"><a href="index.php">ACADEMICS<span class="arrow"></span></a>
 								<ul style="display: none;" class="sub_menu">
 									<li class="arrow_top"></li>
-									<li><a class="subCurrent" href="coursegpa.php">Current GPA</a></li>
+									<li><a class="subCurrent" href="coursegpa.php">Current Grades</a></li>
 									<li><a href="calc.php">GPA Calculator</a></li>
-									<li><a href="login.php">Class Schedule</a></li>
+									<li><a href="coursescheduler.php">Class Schedule</a></li>
 									<li><a href="courselist.php">Courses List</a></li>
 									<li><a href="https://web.iit.edu/registrar/academic-calendar">Academic Calender</a></li>
 								</ul>
@@ -100,7 +100,7 @@ $(function(){
 									<li class="arrow_top"></li>
 									<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
 									<li><a href="https://web.iit.edu/contact-us">Important contact Info</a></li>
-									<li><a href="weather.html">Weather Updates</a></li>
+									<li><a href="https://weather.com/weather/today/l/USIL0225:1:US">Weather Updates</a></li>
 									<li><a href="https://web.iit.edu/sites/web/files/departments/acaps/pdfs/Illinois-Tech-Shuttle-Bus-Schedule.pdf">Shuttle Bus</a></li>
 								</ul>
 							</li>
