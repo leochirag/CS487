@@ -71,9 +71,9 @@ $(function(){
 							<li class="current"><a href="index.php">ACADEMICS<span class="arrow"></span></a>
 								<ul style="display: none;" class="sub_menu">
 									<li class="arrow_top"></li>
-									<li><a class="subCurrent" href="coursegpa.php">Current GPA</a></li>
+									<li><a class="subCurrent" href="coursegpa.php">Current Grades</a></li>
 									<li><a href="calc.php">GPA Calculator</a></li>
-									<li><a href="login.php">Class Schedule</a></li>
+									<li><a href="coursescheduler.php">Class Schedule</a></li>
 									<li><a href="courselist.php">Courses List</a></li>
 									<li><a href="https://web.iit.edu/registrar/academic-calendar">Academic Calender</a></li>
 								</ul>
@@ -94,16 +94,15 @@ $(function(){
 										<li><a href="https://web.iit.edu/housing/nearby-restaurants">Nearby Restaurants</a></li>
 									</ul>
 								</li>
-
-								<li class="current"><a href="index.php">Miscellaneous<span class="arrow"></span></a>
-									<ul style="display: none;" class="sub_menu">
-										<li class="arrow_top"></li>
-										<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
-										<li><a href="https://web.iit.edu/contact-us">Important contact Info</a></li>
-										<li><a href="https://hawklink.iit.edu/Organizations">Weather Updates</a></li>
-										<li><a href="https://web.iit.edu/sites/web/files/departments/acaps/pdfs/Illinois-Tech-Shuttle-Bus-Schedule.pdf">Shuttle Bus</a></li>
-									</ul>
-								</li>
+							<li class="current"><a href="index.php">Miscellaneous<span class="arrow"></span></a>
+								<ul style="display: none;" class="sub_menu">
+									<li class="arrow_top"></li>
+									<li><a class="subCurrent" href="https://web.iit.edu/sites/web/files/departments/about-iit/pdfs/campus-map.pdf">University map</a></li>
+									<li><a href="https://web.iit.edu/contact-us">Important contact Info</a></li>
+									<li><a href="https://weather.com/weather/today/l/USIL0225:1:US">Weather Updates</a></li>
+									<li><a href="https://web.iit.edu/sites/web/files/departments/acaps/pdfs/Illinois-Tech-Shuttle-Bus-Schedule.pdf">Shuttle Bus</a></li>
+								</ul>
+							</li>
 							 <li><a href="logout.php">Logout</a></li>
 						</ul>
 					</nav>
@@ -201,28 +200,16 @@ var incr = new Array(5);
 
 // define valid grades and their values
 var grcount = 11;
-gr[0] = "A+";
-cr[0] = 5;
-gr[1] = "A";
-cr[1] = 4;
-gr[2] = "A-";
-cr[2] = 3.66;
-gr[3] = "B+";
-cr[3] = 3.33;
-gr[4] = "B";
-cr[4] = 3;
-gr[5] = "B-";
-cr[5] = 2.66;
-gr[6] = "C+";
-cr[6] = 2.33;
-gr[7] = "C";
-cr[7] = 2;
-gr[8] = "C-";
-cr[8] = 1.66;
-gr[9] = "D";
-cr[9] = 1;
-gr[10] = "F";
-cr[10] = 0;
+gr[0] = "A";
+cr[0] = 4;
+gr[1] = "B";
+cr[1] = 3;
+gr[2] = "C";
+cr[2] = 2;
+gr[3] = "D";
+cr[3] = 1;
+gr[4] = "F";
+cr[4] = 0;
 // retrieve user input
 ingr[0] = document.GPACalcForm.GR1.value;
 ingr[1] = document.GPACalcForm.GR2.value;
